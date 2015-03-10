@@ -1,0 +1,19 @@
+{
+  "generator-jhipster": {
+    "baseName": "jhipster",
+    "packageName": "com.peiniau.jhipster",
+    "packageFolder": "com/peiniau/jhipster",
+    "authenticationType": "session",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "useCompass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "javaVersion": "8",
+    "rememberMeKey": "9041ec61ef267aee73a9544f12ef58bb2b2d9132"
+  }
+}
