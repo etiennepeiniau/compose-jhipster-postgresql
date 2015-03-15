@@ -1,0 +1,16 @@
+web:
+  image: lepnio/jhipster-docker
+  volumes: 
+    - ./:/data
+    - ~/.m2:/home/jhipster/.m2
+  ports:
+    - 5005:5005
+    - 8080:8080
+  links:
+    - db
+  command: mvn spring-boot:run
+db:
+  image: postgres:9.4.1
+  environment:
+    POSTGRES_USER: jhipster
+    POSTGRES_PASSWORD: jhipster

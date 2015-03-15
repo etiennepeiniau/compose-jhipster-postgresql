@@ -6,11 +6,11 @@ spring:
         active: dev
     datasource:
         dataSourceClassName: org.postgresql.ds.PGSimpleDataSource
-        url: 
-        databaseName: jhipster
+        url: jdbc:postgresql://db:5432/jhipster
+        databaseName:
         serverName: localhost
         username: jhipster
-        password: 
+        password: jhipster
 
     jpa:
         database-platform: org.hibernate.dialect.PostgreSQL82Dialect

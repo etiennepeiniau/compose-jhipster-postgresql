@@ -497,10 +497,10 @@
                     <changeLogFile>src/main/resources/config/liquibase/master.xml</changeLogFile>
                     <diffChangeLogFile>src/main/resources/config/liquibase/changelog/${maven.build.timestamp}_changelog.xml</diffChangeLogFile>
                     <driver>org.postgresql.Driver</driver>
-                    <url>jdbc:postgresql://localhost/jhipster</url>
+                    <url>jdbc:postgresql://db:5432/jhipster</url>
                     <defaultSchemaName></defaultSchemaName>
                     <username>jhipster</username>
-                    <password></password>
+                    <password>jhipster</password>
                     <referenceUrl>hibernate:spring:com.peiniau.jhipster.domain?dialect=org.hibernate.dialect.PostgreSQL82Dialect</referenceUrl>
                     <verbose>true</verbose>
                     <logging>debug</logging>
